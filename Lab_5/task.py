@@ -1,0 +1,11 @@
+a=tuple(range(5))
+print(a)
+b=tuple(range(5,10))
+print(b)
+c = tuple(range(0,10,2))
+print(c)
+d = tuple(range(10,0,-2))
+print(d)
+
+d = (3,[5,6,7],(4,5,6),[5,6,7,(6,7,8)],9,10)
+print(d[1][1])
