@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
-img = Image.open("E:\College\Python Programming\Lab_11\bmw-e60-m5")
+img = Image.open("E:/College/Python Programming/Lab_11/bmw-e60-m5.jpg")
 img_array = np.array(img)
 
 print("Dimensions (H x W x C):", img_array.shape)
@@ -11,7 +11,7 @@ min_blue = img_array[:,:,2].min()
 print("Minimum pixel value in Blue channel:", min_blue)
 
 
-img = Image.open("E:\College\Python Programming\Lab_11\bmw-e60-m5").convert("RGB")
+img = Image.open("E:/College/Python Programming/Lab_11/bmw-e60-m5.jpg").convert("RGB")
 img_array = np.array(img)
 
 padded_array = np.pad(
@@ -30,7 +30,7 @@ plt.show()
 
 
 
-img = Image.open("E:\College\Python Programming\Lab_11\bmw-e60-m5")
+img = Image.open("E:/College/Python Programming/Lab_11/bmw-e60-m5.jpg")
 img_array = np.array(img)
 
 R = img_array[:,:,0]

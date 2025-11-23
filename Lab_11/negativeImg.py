@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
-img = Image.open(r'E:\College\Python Programming\Lab_11\bmw-e60-m5')
+img = Image.open("E:/College/Python Programming/Lab_11/bmw-e60-m5.jpg")
 img_array = np.array(img)
 is_grayscale = len(img_array.shape) < 3
 def create_negative(image):
